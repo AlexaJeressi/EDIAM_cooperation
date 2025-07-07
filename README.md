@@ -6,6 +6,7 @@ El modelo está basado en el trabajo de Molina et al. (2020), donde se integra l
 Molina, E., Saari, R., Wagner, F., & Füssel, H.-M. (2020). Equity and climate: An integrated assessment model with interregional redistribution. Frontiers in Robotics and AI, 7, 111. https://doi.org/10.3389/frobt.2020.00111
 
 ## Estructura del repositorio
+.
 ├── Main.r                        # Script principal que ejecuta el modelo completo
 ├── visualizaciones.r            # Script para generar gráficas y análisis visual
 ├── Inputs/
@@ -13,7 +14,7 @@ Molina, E., Saari, R., Wagner, F., & Füssel, H.-M. (2020). Equity and climate: 
 │   ├── experimental.design.csv  # Diseño experimental para correr múltiples simulaciones
 │   └── harness_processing.r     # Script para automatizar y manejar experimentos
 ├── Harness/
-│   └── output_run.csv           # Salidas individuales de simulaciones 
+│   └── output_run_XXXX.csv      # Salidas individuales de simulaciones (XXXX = ID de ejecución)
 ├── Outputs/
 │   ├── prim.data.csv            # Datos consolidados de todas las simulaciones
 │   └── runs.models.csv          # Resumen de los modelos corridos y sus parámetros
